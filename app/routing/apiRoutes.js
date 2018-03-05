@@ -21,7 +21,7 @@ module.exports = function(app) {
   // ---------------------------------------------------------------------------
 
   app.get("/api/friends", function(req, res) {
-    res.json(friends);
+    res.json(friendsData);
   });
 
   // API POST Requests
@@ -36,10 +36,21 @@ module.exports = function(app) {
     // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
     // It will do this by sending out the value "true" have a table
     // req.body is available since we're using the body-parser middleware
-    if (friends.length < 5) {
-      friends.push(req.body);
+    if (friendsData.length < 5) {
+      friendsData.push(req.body);
       res.json(true);
     }
+
+
+    var match = {
+      name: "",
+      photo: "",
+      difference: 0
+    }
+// Loop through all the data
+// if else statement
+
+
     // else {
     //   waitListData.push(req.body);
     //   res.json(false);
@@ -50,10 +61,10 @@ module.exports = function(app) {
   // I added this below code so you could clear out the table while working with the functionality.
   // Don"t worry about it!
 
-  app.post("/api/clear", function() {
-    // Empty out the arrays of data
-    friends = [];
+  // app.post("/api/clear", function() {
+  //   // Empty out the arrays of data
+  //   friendsData = [];
 
-    console.log(friends);
-  });
+  //   console.log(friendsData);
+  // });
 };
