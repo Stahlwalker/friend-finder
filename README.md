@@ -1,6 +1,6 @@
 # friend-finder
 
-[Visit Heorku hosted site](https://mighty-scrubland-37997.herokuapp.com/)
+[Friend Finder App](https://mighty-scrubland-37997.herokuapp.com/)
 
 ## What the project does?
     * This project uses node package manager express to create a friend finder app.
