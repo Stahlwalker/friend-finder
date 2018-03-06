@@ -172,10 +172,10 @@
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h2 class="modal-title"><strong>Best Match</strong></h2>
         </div>
-        <!-- <div class="modal-body">
+        <div class="modal-body">
           <h2 id="match-name"></h2>
-          <img id="match-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
-        </div> -->
+          <img id="match-img" src="" alt="">
+        </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
@@ -184,10 +184,10 @@
     </div>
   </div>
 
-  <script
+  <!-- <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script> -->
 
 
   <!-- Chosen -->
@@ -270,7 +270,7 @@
           $("#match-img").attr("src", data.photo);
 
           // Show the modal with the best match
-          // $("#results-modal").modal("toggle");
+          $("#results-modal").modal("toggle");
 
         });
       } else {
