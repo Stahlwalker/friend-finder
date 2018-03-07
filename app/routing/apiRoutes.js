@@ -36,32 +36,32 @@ module.exports = function(app) {
     // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
     // It will do this by sending out the value "true" have a table
     // req.body is available since we're using the body-parser middleware
-    if (friendsData.length < 5) {
+    if (friendsData.length < 25) {
       friendsData.push(req.body);
       res.json(true);
     }
 
 
-    var match = {
-      name: "",
-      photo: "",
-      difference: 0
-    }
+    // var match = {
+    //   name: "",
+    //   photo: "",
+    //   difference: 0
+    // }
 
-    function sum(scores){
-      if (toString.call(scores) !=="[friendsArray]")
-      return false;
+    // function sum(scores){
+    //   if (toString.call(scores) !=="[friendsArray]")
+    //   return false;
 
-        var total = 0;
-        for(var i=0; i<scores.length; i++)
-        {
-          if(isNaN(scores[i])){
-            total += Number(scores[i]);
-          }
-          return total;
-        }
-    }
-    console.log(sum([]));
+    //     var total = 0;
+    //     for(var i=0; i<scores.length; i++)
+    //     {
+    //       if(isNaN(scores[i])){
+    //         total += Number(scores[i]);
+    //       }
+    //       return total;
+    //     }
+    // }
+    // console.log(sum([]));
 
     // var totalDifference = {
 
