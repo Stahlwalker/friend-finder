@@ -47,6 +47,25 @@ module.exports = function(app) {
       photo: "",
       difference: 0
     }
+
+    function sum(scores){
+      if (toString.call(scores) !=="[friendsArray]")
+      return false;
+
+        var total = 0;
+        for(var i=0; i<scores.length; i++)
+        {
+          if(isNaN(scores[i])){
+            total += Number(scores[i]);
+          }
+          return total;
+        }
+    }
+    console.log(sum([]));
+
+    // var totalDifference = {
+
+    // }
 // Loop through all the data
 // if else statement
 

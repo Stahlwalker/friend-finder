@@ -8,7 +8,7 @@
 
 var friendsArray = [
     {
-      customerName: "Ahmed",
+      customerName: "Steve",
       "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
       "scores":[
           5,
@@ -24,7 +24,7 @@ var friendsArray = [
         ]
     },
     {
-      customerName: "Ahmed",
+      customerName: "Ralph",
       "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
       "scores":[
           5,
@@ -40,7 +40,7 @@ var friendsArray = [
         ]
     },
     {
-      customerName: "Ahmed",
+      customerName: "Ernie",
       "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
       "scores":[
           5,
@@ -56,7 +56,103 @@ var friendsArray = [
         ]
     }, 
     {
-      customerName: "Ahmed",
+      customerName: "Mike",
+      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "scores":[
+          5,
+          1,
+          4,
+          4,
+          5,
+          1,
+          2,
+          5,
+          4,
+          1
+        ]
+    }, 
+    {
+      customerName: "Rodger",
+      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "scores":[
+          5,
+          1,
+          4,
+          4,
+          5,
+          1,
+          2,
+          5,
+          4,
+          1
+        ]
+    }, 
+    {
+      customerName: "Susan",
+      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "scores":[
+          5,
+          1,
+          4,
+          4,
+          5,
+          1,
+          2,
+          5,
+          4,
+          1
+        ]
+    }, 
+    {
+      customerName: "Billy",
+      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "scores":[
+          5,
+          1,
+          4,
+          4,
+          5,
+          1,
+          2,
+          5,
+          4,
+          1
+        ]
+    }, 
+    {
+      customerName: "Richard",
+      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "scores":[
+          5,
+          1,
+          4,
+          4,
+          5,
+          1,
+          2,
+          5,
+          4,
+          1
+        ]
+    }, 
+    {
+      customerName: "Jack",
+      "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+      "scores":[
+          5,
+          1,
+          4,
+          4,
+          5,
+          1,
+          2,
+          5,
+          4,
+          1
+        ]
+    }, 
+    {
+      customerName: "Burt",
       "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
       "scores":[
           5,
