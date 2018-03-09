@@ -42,8 +42,8 @@ module.exports = function(app) {
       res.json(true);
     }
 
-    finalscore = 1 +2
-    finalscore = parseInt(person1score) + parseInt(person1score)
+    // finalscore = 1 +2
+    // finalscore = parseInt(person1score) + parseInt(person1score)
 
 
     // var match = {
