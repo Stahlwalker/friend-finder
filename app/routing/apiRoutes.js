@@ -3,7 +3,7 @@
 // We are linking our routes to a series of "data" sources.
 // These data sources hold arrays of information on table-data, waitinglist, etc.
 // ===============================================================================
-var friendsData = require("../data/friends");
+var friendsData = require("../data/friends.js");
 // ===============================================================================
 // ROUTING
 // ===============================================================================
@@ -14,7 +14,7 @@ module.exports = function(app) {
   // (ex: localhost:PORT/api/admin... they are shown a JSON of the data in the table)
   // ---------------------------------------------------------------------------
   app.get("/api/friends", function(req, res) {
-    res.json(friendsData);
+    return res.json(friendsData);
   });
   // API POST Requests
   // Below code handles when a user submits a form and thus submits data to the server.
@@ -25,25 +25,43 @@ module.exports = function(app) {
   // ---------------------------------------------------------------------------
   app.post("/api/friends", function(req, res) {
     // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
+    var newFriend = req.body;
     // It will do this by sending out the value "true" have a table
     // req.body is available since we're using the body-parser middleware
     console.log(req.body)
     if (friendsData.length < 25) {
       friendsData.push(req.body);
-      res.json(true);
+      // res.json(true);
     }
     // finalscore = 1 +2
     // finalscore = parseInt(person1score) + parseInt(person1score)
     // var newFreindSCores = req.body.scores;
-    // var scoresArray = [];
-    // var friendCount = 0;
-    // var bestMatch = 0;
+    var match = [0];
+    var bestMatch = 1000;
+    var newFreindScore = newFriend['scores[]'];
+    console.log(newFreindScore);
+
+    for ( var i = 0; i < friendsData.length -1; i++){
+      var compScore = friendsData[i]['scores[]'];
+      var currentDiff = 0;
+
+      for (var j = 0; j < compScore.length; j++) {
+        currentDiff += Math.abs(compScore[j] - newFreindScore[j]);
+      }
+      console.log(currentDiff);
+
+      if(currentDiff < bestMatch) {
+        bestMatch = currentDiff;
+        match = friendsData[i];
+      }
+    }
+
     // var match = {
     //   name: "",
     //   photo: "",
     //   difference: 0
     // }
-    // function sum(scores){
+    // // function sum(scores){
     //   if (toString.call(scores) !=="[friendsArray]")
     //   return false;
     //     var total = 0;
@@ -64,6 +82,7 @@ module.exports = function(app) {
     //   waitListData.push(req.body);
     //   res.json(false);
     // }
+    res.json(match);
   });
   // ---------------------------------------------------------------------------
   // I added this below code so you could clear out the table while working with the functionality.
@@ -73,7 +92,7 @@ module.exports = function(app) {
   //   friendsData = [];
   //   console.log(friendsData);
   // });
-};
+}
 
 
 

@@ -9,8 +9,8 @@
 var friendsArray = [
   {
     customerName: "Steve",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
@@ -25,8 +25,8 @@ var friendsArray = [
   },
   {
     customerName: "Ralph",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
@@ -41,8 +41,8 @@ var friendsArray = [
   },
   {
     customerName: "Ernie",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
@@ -57,8 +57,8 @@ var friendsArray = [
   }, 
   {
     customerName: "Mike",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
@@ -73,8 +73,8 @@ var friendsArray = [
   }, 
   {
     customerName: "Rodger",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
@@ -89,8 +89,8 @@ var friendsArray = [
   }, 
   {
     customerName: "Susan",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
@@ -105,8 +105,8 @@ var friendsArray = [
   }, 
   {
     customerName: "Billy",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
@@ -121,8 +121,8 @@ var friendsArray = [
   }, 
   {
     customerName: "Richard",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
@@ -137,8 +137,8 @@ var friendsArray = [
   }, 
   {
     customerName: "Jack",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
@@ -153,8 +153,8 @@ var friendsArray = [
   }, 
   {
     customerName: "Burt",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-    "scores":[
+    "photo":"https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/94/Captain_America_%28Official_IW_Concept_Art_-_Infobox_Crop%29.jpg/revision/latest/scale-to-width-down/350?cb=20170731141222",
+    "scores[]":[
         5,
         1,
         4,
